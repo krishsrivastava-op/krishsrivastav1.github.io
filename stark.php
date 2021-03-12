@@ -5,7 +5,7 @@ $phonenumber = filter_input(INPUT_POST, 'phonenumber');
 if (!empty($username))
 if (!empty($address))
 if (!empty($phonenumber))
-$host = "localhost";
+$host = "github.io";
 $dbusername = "root";
 $dbpassword = "";
 $dbname = "krish12345";
