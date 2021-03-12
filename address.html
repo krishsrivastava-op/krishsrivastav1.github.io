@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>RED STORE</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
-  <link rel="stylesheet" href="adress.css">
+  <link rel="stylesheet" href="zeb21.css">
 </head>
 <body>
   <body background="images\background12.jpg">
@@ -16,24 +16,23 @@
     <h2>YOUR DETAILS</h2>
     <div class="form">
       <div class="form">
+        <form method="post" action="stark.php">
       <div class="card space icon-relative">
-        <label class="label">YOUR NAME:</label>
-        <input type="text" class="input" data mask="" placeholder="RED STORE">
+        <label class="label">username</label>
+        <input type="text" class="input" data mask="REDSTORE" name="username" required="" placeholder="RED STORE">
         <i class="fas fa-user"></i>
       </div>
       <div class="card space icon-relative">
-        <label class="label">YOUR ADDRESS</label>
-        <input type="text" class="input" placeholder="RED STORE">
+        <label class="label">address</label>
+        <input type="text" class="input" name="address" required="" placeholder="RED STORE">
         <i class="fas fa-user"></i>
       </div>
       </div>             
       <div class="card space icon-relative">
-        <label class="label">YOUR PHONE NUMBER</label>
-        <input type="number" class="input" data-mask="0000000000" placeholder="0000000000">
-        <i class="far fa-credit-card"></i>
+        <label class="label">phonenumber</label>
+        <input type="phonenumber" class="input" name="phonenumber" required="" data-mask="0000000000" placeholder="0000000000"></i>
       </div>
       </div>
-        <a href="ORDERPLACED.HTML">
           <input type="image" src="images\go.jpg" id="submitformbtn" img{
           width="300px;" 
         } >
@@ -42,9 +41,6 @@
     </div>
   </div>
 </div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 
 </body>
 </html>
